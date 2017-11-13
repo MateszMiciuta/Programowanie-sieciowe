@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SumaKontrolna
+namespace CRC
 {
     internal class Program
     {

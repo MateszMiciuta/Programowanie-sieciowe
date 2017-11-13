@@ -14,14 +14,16 @@ namespace SumaKontrolna
             st = Console.ReadLine();
             byte[] bytes = Encoding.ASCII.GetBytes(st);
             byte checksum = 0;
-            foreach (var Cdata in bytes )
+            foreach (var Data in bytes )
             {
-                checksum += Cdata;
+                checksum += Data;
             }
 
             checksum &= 0x0001;
             Console.WriteLine(checksum.ToString(("x2")));
-                
+               
+            
+            
                  
             
                 

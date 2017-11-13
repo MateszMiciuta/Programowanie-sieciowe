@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Lab2
+namespace HelloWorls
 {
     internal class Program
     {
