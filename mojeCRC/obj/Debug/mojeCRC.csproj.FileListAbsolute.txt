@@ -1,0 +1,6 @@
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojeCRC\obj\Debug\mojeCRC.csprojResolveAssemblyReference.cache
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojeCRC\obj\Debug\mojeCRC.csproj.CoreCompileInputs.cache
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojeCRC\bin\Debug\mojeCRC.exe
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojeCRC\bin\Debug\mojeCRC.pdb
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojeCRC\obj\Debug\mojeCRC.exe
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojeCRC\obj\Debug\mojeCRC.pdb

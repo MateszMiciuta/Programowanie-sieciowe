@@ -1,0 +1,6 @@
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojebitparzystosci\obj\Debug\mojebitparzystosci.csprojResolveAssemblyReference.cache
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojebitparzystosci\obj\Debug\mojebitparzystosci.csproj.CoreCompileInputs.cache
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojebitparzystosci\bin\Debug\mojebitparzystosci.exe
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojebitparzystosci\bin\Debug\mojebitparzystosci.pdb
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojebitparzystosci\obj\Debug\mojebitparzystosci.exe
+E:\05. PG\06. Programowanie sieciowe\Lab2\mojebitparzystosci\obj\Debug\mojebitparzystosci.pdb

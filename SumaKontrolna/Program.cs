@@ -1,39 +1,76 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
-namespace SumaKontrolna
+namespace Bit_parzystości
 {
-    internal class Program
+    class program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-           
-            Console.Write("Wpisz :  ");
-            String st = "";
-            st = Console.ReadLine();
-            byte[] bytes = Encoding.ASCII.GetBytes(st);
-            byte checksum = 0;
-            foreach (var Data in bytes )
+            int parity = 0;
+            int bit;
+            int[] array1 = new int[8] { 1, 0, 1, 0, 1, 0, 1, 1 };
+            for (int i = 0; i < 8; i++)
             {
-                checksum += Data;
+                Console.WriteLine("array1[{0}]={1}", i, array1[i]);
+                if (array1[i] == 1)
+                    parity++;
             }
-
-            checksum &= 0x0001;
-            Console.WriteLine(checksum.ToString(("x2")));
-               
-            
-            
-                 
-            
-                
-                
- 
-            
+            if (parity % 2 == 0)
+                bit = 0;
+            else
+                bit = 1;
+            Console.WriteLine("Bit parzystości ma wartość: {0}", bit);
+            Console.ReadKey();
         }
-
-
-
-
     }
+
 }
+            
+
+
+
+//using System;
+//using System.Collections.Generic;
+//using System.Text;
+//
+//namespace SumaKontrolna
+//{
+//    internal class Program
+//    {
+//        public static void Main(string[] args)
+//        {
+//           
+//          
+//            
+//            byte checksum = 0;
+//            
+//            
+//            foreach (var Data in bytes ) // sumuje bity z tablicy
+//            {
+//                checksum += Data;
+//            }
+//            Console.WriteLine(bytes);
+            
+//            checksum &= 0x0001; //maska 
+//            Console.WriteLine(checksum.ToString());
+               
+
+            
+//            
+//                 Console.Beep();
+//            
+//                
+//                
+// 
+//            
+//        }
+//
+//
+//
+//
+//    }
+//}
+
+
